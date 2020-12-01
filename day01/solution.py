@@ -13,7 +13,7 @@ def read_file(path):
             lst.append(int(line))
     return lst
 
-def solver(r):
+def solve(r):
     numbers = read_file(FILE_PATH)
     for comb in itertools.combinations(numbers, r):
         if sum(comb) == 2020:
@@ -21,9 +21,9 @@ def solver(r):
     return 0
 
 # Part 1
-print(solver(2))
+print(solve(2))
 
 # Part 2
-print(solver(3))
+print(solve(3))
 
 
