@@ -17,4 +17,4 @@ mkdir $day
 cp template.ipynb $day/sketch.ipynb
 touch $day/README.md
 touch $day/input.txt
-touch $day/solution.py
+#touch $day/solution.py
